@@ -94,7 +94,7 @@ public class Solution {
 					}
 					
 					for (int k = 0; k < padding; k++) {
-						fis.read();
+						fos.write(fis.read());
 					}
 				}
 				break;
